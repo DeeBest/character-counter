@@ -16,7 +16,21 @@
     <header>
       <h1>Character Counter</h1>
     </header>
-    <main></main>
+    <main>
+      <textarea
+        id="textarea"
+        placeholder="Write your text here"
+        maxlength="100"
+      ></textarea>
+      <div id="counter-container">
+        <p id="total-characters-para">
+          Total Characters: <span id="total-characters-counter">0</span>
+        </p>
+        <p id="remaining-characters-para">
+          Remaining Characters: <span id="remaing-characters-counter">0</span>
+        </p>
+      </div>
+    </main>
     <footer>
       <p id="footer-paragraph"></p>
     </footer>
