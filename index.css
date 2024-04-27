@@ -53,9 +53,17 @@ main {
   display: flex;
   width: 400px;
   justify-content: space-between;
-  color: black;
   font-size: 1.3rem;
   font-style: italic;
+}
+#counter-container p {
+  color: hsla(0, 0%, 0%, 0.6);
+}
+#total-characters-counter {
+  color: green;
+}
+#remaining-characters-counter {
+  color: red;
 }
 footer {
   font-size: 1.4rem;
